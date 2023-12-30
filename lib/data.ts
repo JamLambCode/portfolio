@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import gotParisImg from "@/public/got_paris.png";
+import trophyImg from "@/public/trophy.png";
+import sketchImg from "@/public/sketch.png";
 
 export const links = [
   {
@@ -34,74 +34,86 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  // {
+  //   title: "Graduated From Phoenix Country Day School",
+  //   location: "Phoenix, AZ",
+  //   description:
+  //     "Discovered my passion for coding through making interactive art, where I learned to see technology as a canvas for creativity and innovation.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2021",
+  // },
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Robotics Programming Instructor (Summer)",
+    location: "Paradise Valley, Arizona",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
+      "Directed a team of 5 to teach 30 students about foundational physical coding principals.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2021",
+  },
+  {
+    title: "Data Administrator (Summer)",
+    location: "Paradise Valley, AZ",
+    description:
+      "Coordinated team of 6 in an administrative project compiling thousands of campers datapoints to streamline camp operations.",
+    icon: React.createElement(CgWorkAlt),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "New York University - Computer Science & Philosophy",
+    location: "New York, NY",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Majoring in Computer Science with a minor in Philosophy at NYU, I apply philosophical thinking to innovate in coding, offering fresh perspectives in problem-solving.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Graphing from Paris to Westeros",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Dynamic visualizations of the Paris subway system and character networks in Game of Thrones",
+    tags: ["Python", "numpy", "pandas", "NetworkX", "Matplotlib"],
+    imageUrl: gotParisImg,
   },
   {
-    title: "rmtDev",
+    title: "RankMaster",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Sleek C-based application tailored to curate and manage your personal top 10 lists",
+    tags: ["C", "File I/O"],
+    imageUrl: trophyImg,
   },
   {
-    title: "Word Analytics",
+    title: "Etch-a-Sketch",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Web app built w/o external frameworks, giving users a platform to create whatever their heart desires",
+    tags: ["Javascript", "CSS", "HTML"],
+    imageUrl: sketchImg,
   },
 ] as const;
 
 export const skillsData = [
+  "JavaScript",
+  "Java",
+  "Python",
+  "C",
   "HTML",
   "CSS",
-  "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Bash",
+  "Assembly",
+  "numpy",
+  "pandas",
+  "NetworkX",
+  "Matplotlib",
+  "Scikit-Learn",
+  "torch",
+  "p5.js",
+  "Processing",
+
 ] as const;
