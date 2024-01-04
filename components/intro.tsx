@@ -63,7 +63,7 @@ export default function Intro() {
         }}
       >
         <span className="font-bold">Hello, my name is Jakob.</span> I am a
-        student at NYU studying computer science and working as{" "}
+        student at NYU studying computer science and working as a{" "}
         <span className=" font-bold">full-stack developer</span>.
       </motion.h1>
 
